@@ -1,0 +1,36 @@
+- removed statements for error page at /App.js
+- added border box to have inputs size evenly. Added alert message in /login to notify user was created, then navigate to home page. Added padding for small screen at /login.
+- deleted button
+- renamed create and exercise in /exercise folder. Created workout page and set it to render after user logs in. moved unused files to /notused. Added css to make buttons responsive when screen size is reduced.
+- not ready
+- Merge pull request #51 from JoeyHoellerich/hoellerich6
+- Merge branch 'main' of https://github.com/JoeyHoellerich/Toned into hoellerich6
+- added delete functionality to edit workout page
+- edit workout now communicates with back end
+- past workouts table now renders using database data
+- grab data for every exercise
+- Merge pull request #50 from JoeyHoellerich/hoellerich6
+- Merge branch 'main' of https://github.com/JoeyHoellerich/Toned into hoellerich6
+- working on past workouts page
+- completed add workout page with connection to back end
+- completed sign up page with backend routing
+- working on routing
+- Merge pull request #49 from JoeyHoellerich/hoellerich6
+- merge conflicts
+- deleted bad component
+- completed styling for add workout page
+- created login page, and create user page
+- Merge pull request #48 from JoeyHoellerich/jax-lee-test
+- specific workout search now sort by decending date
+- Merge pull request #42 from JoeyHoellerich/leetest4
+- resolved issues
+- routed frontend components
+- Merge pull request #41 from JoeyHoellerich/hoellerich6
+- Merge branch 'main' of https://github.com/JoeyHoellerich/Toned into hoellerich6
+- completed navbar
+- Merge pull request #40 from JoeyHoellerich/jax-lee-test
+- Merge branch 'main' into jax-lee-test
+- fixed a bug in /:user/dates
+- changed date in the schema to use moment
+- reworked original get route, added date functions
+- installed moment
