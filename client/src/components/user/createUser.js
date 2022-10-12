@@ -51,25 +51,31 @@ export default function CreateUser() {
 
     const newUser = { ...form }
 
-    let response = await fetch(`http://localhost:3000/user/${form.username}`, {
-      method: "GET",
-      headers: {
-        "Content-Type": "application/json",
-      },
-    })
+    let response = await fetch(
+      `${process.env.REACT_APP_SERVER_URL}user/${form.username}`,
+      {
+        method: "GET",
+        headers: {
+          "Content-Type": "application/json",
+        },
+      }
+    )
 
     let userObject = await response.json()
 
     if (userObject.length > 0) {
       setInvalidUser(true)
     } else {
-      let newUserResponse = await fetch("http://localhost:3000/user", {
-        method: "POST",
-        headers: {
-          "Content-Type": "application/json",
-        },
-        body: JSON.stringify(newUser),
-      }).catch((error) => {
+      let newUserResponse = await fetch(
+        `${process.env.REACT_APP_SERVER_URL}user`,
+        {
+          method: "POST",
+          headers: {
+            "Content-Type": "application/json",
+          },
+          body: JSON.stringify(newUser),
+        }
+      ).catch((error) => {
         window.alert(error)
         return
       })

@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/static/css/main.14002a0f.css",
+    "main.js": "/static/js/main.f942ebd8.js",
+    "static/js/787.c4e7f8f9.chunk.js": "/static/js/787.c4e7f8f9.chunk.js",
+    "static/media/pastworkouts-title.svg": "/static/media/pastworkouts-title.6aa6500376cf372868882ce139260193.svg",
+    "static/media/addworkout-title.svg": "/static/media/addworkout-title.418eb7413f69587c2a4cb6b992f89193.svg",
+    "static/media/editworkout-title.svg": "/static/media/editworkout-title.f802b0db33cd5f53147c88fcab96efd0.svg",
+    "static/media/toned-title.svg": "/static/media/toned-title.f98721808d35276c46b7925145a8bfb2.svg",
+    "static/media/signup-title.svg": "/static/media/signup-title.f520fdc37261b14003745756eb5cd174.svg",
+    "static/media/toned-logo.svg": "/static/media/toned-logo.9df2f0270bebd985b6c32bf7a36223c2.svg",
+    "index.html": "/index.html",
+    "main.14002a0f.css.map": "/static/css/main.14002a0f.css.map",
+    "main.f942ebd8.js.map": "/static/js/main.f942ebd8.js.map",
+    "787.c4e7f8f9.chunk.js.map": "/static/js/787.c4e7f8f9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.14002a0f.css",
+    "static/js/main.f942ebd8.js"
+  ]
+}

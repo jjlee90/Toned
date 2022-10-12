@@ -26,12 +26,15 @@ export default function Login() {
     e.preventDefault()
 
     // Check to see if user is in database
-    let response = await fetch(`http://localhost:3000/user/${userInput}`, {
-      method: "GET",
-      headers: {
-        "Content-Type": "application/json",
-      },
-    })
+    let response = await fetch(
+      `${process.env.REACT_APP_SERVER_URL}user/${userInput}`,
+      {
+        method: "GET",
+        headers: {
+          "Content-Type": "application/json",
+        },
+      }
+    )
 
     // returns response as an array of objects, for user it is just 1 object
     let userObject = await response.json()

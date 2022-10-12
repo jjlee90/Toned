@@ -1,8 +1,12 @@
 <p align="center">
 <img src="client/src/imgs/toned-logo.svg" width="25%" >
 <h1 align="center">Toned</h1>
-<h3 align="center"><a  src="https://toned-mern.herokuapp.com/">Website</a>
-</h3></p>
+<h3 align="center">
+
+[Website](https://toned-mern.herokuapp.com/)
+
+</h3>
+</p>
 
 Toned is a wonderful new fitness tracker to help you reach and maintain all of your fitness goals. Toned allows you to track your progress by logging your exercises, sets, reps, and weight. Create a workout plan before the gym or log your workouts as you go. Not sure how much weight you pulled during your last session? No problem! Toned has you covered, just look back at your previous exercises! Keep pushing, stay motivated and get Toned!
 
